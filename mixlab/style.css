@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+/* header header header header header header header header header header header header header header header header header header header */
+/* header header header header header header header header header header header header header header header header header header header */
+/* header header header header header header header header header header header header header header header header header header header */
+/* header header header header header header header header header header header header header header header header header header header */
+.header {
+    background-color: white;
+}
+
+.header .row {
+    justify-content: space-between;
+}
+
+.header__logo ul {
+    display: flex;
+    list-style-type: none;
+    gap: 13px;
+}
+
+.header__logo ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header__logo ul li a:hover {
+    color: orangered;
+    transition: 0.4s;
+}
+
+.header__menu h1 {
+    font-size: 40px;
+    color: #F5A61C;
+}
+
+.header span {
+    color: #6F1EAA;
+    margin: 5px;
+}
+
+.header span:hover {
+    color: orangered;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-purple {
+    background-color: #6F1EAA;
+    border: #6F1EAA;
+    border-radius: 19px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-purple:hover {
+    background-color: #701eaab1;
+    color: #000;
+    transition: 0.4s;
+}
+
+/* home home home home home home home home home home home home home home home home home home  home home home home home home home home home home*/
+/* home home home home home home home home home home home home home home home home home home   home home home home home home home home home home*/
+/* home home home home home home home home home home home home home home home home home home  home home home home home home home home home home*/
+/* home home home home home home home home home home home home home home home home home home  home home home home home homevv home home home home*/
+
+.home {
+    background-color: #FEF7E5;
+    height: 600px;
+    position: relative;
+}
+
+.home .container {
+    max-width: 200px;
+    text-align: center;
+}
+
+.home__img {
+    position: absolute;
+    left: 0;
+}
+
+.home__imgjon {
+    position: absolute;
+    right: 0;
+}
+
+/* always always always always always always always always always always always always always always always always always always always always always */
+/* always always always always always always always always always always always always always always always always always always always always always */
+/* always always always always always always always always always always always always always always always always always always always always always */
+.always .container {
+    max-width: 1100px;
+    padding: 99px;
+}
+
+.always__right {
+    margin: 150px;
+}
+
+.always__text {
+    padding: 2 0px;
+}
+
+.always h3 {
+    color: #6F1EAA;
+}
+
+.always p {
+    position: relative;
+    padding: 20px 0;
+}
+
+.always p::after {
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: #F7A500;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: -8px;
+}
+
+/* works works works works works works works works works works works works works works works works works works works works works works works */
+/* works works works works works works works works works works works works works works works works works works works works works works works */
+/* works works works works works works works works works works works works works works works works works works works works works works works */
+.works .card {
+    margin: 20px;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.works .box {
+    text-align: center;
+    font-size: 20px;
+}
+
+.works .card h3 {
+    color: #6F1EAA;
+}
+
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets  pets pets */
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets  pets pets */
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets  pets pets */
+.pets {
+    padding: 30px 0px;
+}
+
+.pets__title {
+    text-align: center;
+}
+
+.pets__title p {
+    color: #6F1EAA;
+    cursor: pointer;
+}
+
+.pets .card {
+    background-color: #DFF5F6;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.pets .card img {
+    width: 100px;
+    height: 100px;
+}
+
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild  */
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild  */
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild wild  */
+.wild {
+    background-color: #aba0a063;
+    position: relative;
+}
+
+.wild__title {
+    text-align: center;
+}
+
+.wild .card {
+    background-color: #fff;
+    margin: 10px;
+}
+
+.wild .card img {
+    width: 100%;
+}
+
+.wild .card__title {
+    padding: 27px;
+}
+
+.wild__img {
+    position: absolute;
+    left: 0;
+}
+
+.wild__imgjon {
+    position: absolute;
+    right: 0;
+}
+
+/* companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie */
+/* companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie */
+/* companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie companie */
+.companie {
+    background-color: #6F1EAA;
+}
+
+.companie img {
+    margin: 30px;
+}
+
+/* footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+.footer {
+    background-color: #48156D;
+}
+
+.footer__menu ul {
+    list-style-type: none;
+}
+
+.footer__menu ul li {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__title {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__menu ul h4 {
+    color: #8c32cc99;
+    margin: 10px;
+}
+
+.footer__icon {
+    position: relative;
+    right: -90px;
+    background-color: black;
+}
+
+.footer__menu ul li:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+@media (max-width:768px) {
+    .row {
+        display: block;
+    }
+}
+
+@media (max-width:576px) {
+    .home h1 {
+        margin: 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .wild__card img {
+        padding: 60px;
+    }
+
+    .wild__card {
+        margin: 20px 0;
+    }
+
+    .wild .container {
+        margin: 30px;
+    }
+
+    .wild__content {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width:350px) {
+    .home__title img {
+        width: 100%;
+    }
+}
+
+@media (max-width:777px) {
+    .always .container {
+        padding: 0px;
+    }
+
+    .always__left h1 {
+        font-size: 100%;
+        padding: 150px;
+    }
+
+    .always__right {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .header .row {
+        display: flex;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .pets__card {
+        display: block;
+    }
+
+    .img-pets {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:992px) {
+    .pets__img {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .header {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:446px) {
+    .container {
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width:550px) {
+    .for__left img {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .pets__img {
+        position: absolute;
+        left: 500px;
+        top: 3100px;
+    }
+}
+
+@media (max-width:768px) {
+    .pets__img {
+        position: absolute;
+        left: 500px;
+        top: 3200px;
+    }
+}
+
+@media (max-width:576px) {
+    .pets__img {
+        position: absolute;
+        left: 400px;
+        top: 3350px;
+    }
+}
+
+.header__bars {
+    padding: 0 30px;
+    font-size: 35px;
+    display: none;
+}
+
+@media (max-width:577px) {
+    .header__logo {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header h1 {
+        margin: 0px;
+    }
+
+    .header__bars {
+        display: block;
+        padding: 0px;
+    }
+}
+
+@media (max-width:992px) {
+    .works .row {
+        display: block;
+    }
+
+    .works .card {
+        padding: 0px;
+    }
+
+    .works .card__title img {
+        width: 100%;
+    }
+}
+@media (max-width:576px){
+    .footer ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer__menu ul h4{
+        margin: 0px;
+        padding: 0px;
+    }
+}
